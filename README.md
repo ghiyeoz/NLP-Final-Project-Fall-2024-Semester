@@ -38,13 +38,7 @@ Before you begin, ensure you have the following installed on your local machine:
 You will also need to install the dependencies listed in the `requirements.txt` file.
 
 ---
-## Data
 
-The dataset used for analyzing anime can be downloaded from the link below:
-
-🔗 [Dataset on Google Drive](https://drive.google.com/drive/folders/1ef-PQRhQ0Z-eZB1_YET4AFnIAtMIe52W?usp=drive_link)
-
-Click the link to access and download the dataset.
 ## **Installation**
 
 ### **Step 1: Clone the repository**
@@ -52,3 +46,11 @@ Click the link to access and download the dataset.
 ```bash
 git clone https://github.com/your-username/anime-recommendation-website.git
 cd anime-recommendation-website
+
+## Data
+
+The dataset used for analyzing anime can be downloaded from the link below:
+
+🔗 [Dataset on Google Drive](https://drive.google.com/drive/folders/1ef-PQRhQ0Z-eZB1_YET4AFnIAtMIe52W?usp=drive_link)
+
+Click the link to access and download the dataset.
