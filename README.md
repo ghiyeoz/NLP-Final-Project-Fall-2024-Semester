@@ -1,7 +1,9 @@
 # NLP-Final-Project-Fall-2024-Semester
 
 Explore our project live through the following link:
+
 🔗 **[Anime Recommendation System - 2024 Fall NLP Final Project](https://ghiyeoz.github.io/2024_Fall_NLP_Final_Project/)**  
+
 Click the link to interact with the live demo of our anime recommendation system and see how the analysis works in action!
 
 Welcome to the Anime Recommendation Website! This project allows users to browse and discover various anime recommendations, powered by a CSV file containing anime data that is converted into JavaScript objects for dynamic display.
