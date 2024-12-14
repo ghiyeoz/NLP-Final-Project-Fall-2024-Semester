@@ -1,10 +1,4 @@
 # NLP-Final-Project-Fall-2024-Semester
-## Demo Video
-
-You can see how the website works by watching the demo video:
-
-🎥 [Watch Demo Video](https://github.com/ghiyeoz/NLP-Final-Project-Fall-2024-Semester/blob/main/video/Screen%20Recording%202024-12-12%20at%2021.59.41.mov)
-Explore our project live through the following link:
 
 🔗 **[Anime Recommendation System - 2024 Fall NLP Final Project](https://ghiyeoz.github.io/2024_Fall_NLP_Final_Project/)**  
 
