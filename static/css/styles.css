@@ -1,4 +1,4 @@
-/* Reset and global styles */
+/* Global styles */
 * {
   padding: 0;
   margin: 0;
@@ -21,32 +21,41 @@ body {
 
 /* Container */
 .container {
-  max-width: 1200px;
+  max-width: 1400px;
   margin: auto;
-  background: rgba(40, 40, 40, 0.8);
-  padding: 30px;
+  background: rgba(30, 30, 50, 0.85);
+  padding: 40px;
   border-radius: 20px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
-  backdrop-filter: blur(10px);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(12px);
+  border: 2px solid rgba(255, 255, 255, 0.2);
   animation: fadeIn 1.2s ease-in-out;
 }
 
 /* Headings */
 h1,
 h2 {
-  color: #ff79c6;
+  color: #ffd700;
   text-align: center;
   font-family: "Pacifico", cursive;
   margin-bottom: 20px;
-  text-shadow: 0 4px 10px rgba(255, 121, 198, 0.5);
-  letter-spacing: 1px;
-  transition: transform 0.3s ease-in-out;
+  text-shadow: 0 5px 15px rgba(255, 215, 0, 0.8);
+  letter-spacing: 2px;
+  transition: transform 0.3s ease-in-out, color 0.3s ease;
 }
 h1:hover,
 h2:hover {
   transform: scale(1.1);
-  color: #ff92d0;
+  color: #fff700;
+}
+
+/* "Write the name of your favorite anime." text */
+input::placeholder {
+  font-style: italic;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 18px;
+  font-weight: bold;
+  text-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
 }
 
 /* Input field */
@@ -54,113 +63,115 @@ input {
   width: 100%;
   padding: 15px;
   margin-bottom: 20px;
-  border: 2px solid #ff66c4;
-  border-radius: 25px;
-  font-size: 18px;
-  background-color: #282a36;
-  color: #f8f8f2;
-  box-shadow: 0 4px 10px rgba(255, 102, 196, 0.4);
+  border: 2px solid #ffd700;
+  border-radius: 30px;
+  font-size: 16px;
+  background-color: rgba(40, 40, 50, 0.9);
+  color: #fefefe;
+  box-shadow: 0 4px 12px rgba(255, 215, 0, 0.5);
   transition: all 0.3s ease-in-out;
 }
 
 input:focus {
-  border-color: #ff92d0;
+  border-color: #fff700;
   outline: none;
-  box-shadow: 0 0 15px rgba(255, 121, 198, 0.8);
+  box-shadow: 0 0 12px rgba(255, 215, 0, 0.8);
 }
 
 /* Results section */
 .results {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-  gap: 20px;
-  margin-top: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 25px;
+  margin-top: 15px;
   max-height: 70vh;
   overflow-y: auto;
   scrollbar-width: thin;
-  scrollbar-color: #ff79c6 transparent;
+  scrollbar-color: #ffd700 transparent;
 }
 
 .results::-webkit-scrollbar {
   width: 8px;
 }
 .results::-webkit-scrollbar-thumb {
-  background-color: #ff79c6;
+  background-color: #ffd700;
   border-radius: 10px;
 }
 
 /* Search result items */
 .search-result-item {
-  background-color: rgba(28, 27, 41, 0.9);
-  border-radius: 20px;
+  background-color: rgba(50, 50, 70, 0.85);
+  border-radius: 15px;
   padding: 20px;
   color: #f8f8f2;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.5);
   cursor: pointer;
   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
 .search-result-item:hover {
   transform: scale(1.05);
-  box-shadow: 0 12px 30px rgba(255, 121, 198, 0.7);
+  box-shadow: 0 12px 25px rgba(255, 215, 0, 0.7);
 }
 
 .search-result-item img {
   width: 100%;
-  border-radius: 15px;
-  margin-bottom: 15px;
-  border: 2px solid #ff66c4;
-  transition: transform 0.3s ease-in-out;
+  border-radius: 12px;
+  margin-bottom: 10px;
+  border: 3px solid #ffd700;
+  transition: transform 0.3s ease-in-out, border-color 0.3s ease;
 }
 
 .search-result-item img:hover {
-  transform: scale(1.02);
+  transform: scale(1.03);
+  border-color: #fff700;
 }
 
 .search-result-item h3 {
   margin: 0;
-  font-size: 22px;
+  font-size: 20px;
   font-weight: bold;
-  color: #ff79c6;
+  color: #ffd700;
 }
 
 .search-result-item p {
-  font-size: 16px;
-  color: #a4a4a4;
+  font-size: 14px;
+  color: #bcbcbc;
 }
 
-/* Recommendations */
+/* Recommendations section */
 .recommendations {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-  gap: 20px;
-  margin-top: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 25px;
+  margin-top: 15px;
 }
 
 .recommendations div {
-  background-color: rgba(40, 40, 50, 0.9);
-  border-radius: 20px;
+  background-color: rgba(60, 60, 80, 0.85);
+  border-radius: 15px;
   padding: 20px;
   color: #f8f8f2;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.5);
   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
 .recommendations div:hover {
   transform: scale(1.05);
-  box-shadow: 0 12px 30px rgba(255, 121, 198, 0.7);
+  box-shadow: 0 12px 25px rgba(255, 215, 0, 0.7);
 }
 
 .recommendations div h3 {
   margin: 0;
   font-size: 20px;
   font-weight: bold;
-  color: #ff79c6;
+  font-style: italic;
+  color: #ffd700;
 }
 
 .recommendations div p {
-  font-size: 16px;
-  color: #a4a4a4;
+  font-size: 14px;
+  color: #bcbcbc;
 }
 
 /* Fade-in animation */
