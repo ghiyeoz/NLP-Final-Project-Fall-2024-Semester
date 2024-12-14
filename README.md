@@ -1,6 +1,6 @@
 # NLP-Final-Project-Fall-2024-Semester
 
-🔗 **[Anime Recommendation System - 2024 Fall NLP Final Project]([https://ghiyeoz.github.io/2024_Fall_NLP_Final_Project/](https://ghiyeoz.github.io/NLP-Final-Project-Fall-2024-Semester/))**  
+🔗 **[Anime Recommendation System - 2024 Fall NLP Final Project](https://ghiyeoz.github.io/NLP-Final-Project-Fall-2024-Semester/)**  
 
 ## Data
 
