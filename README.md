@@ -41,7 +41,7 @@ You will also need to install the dependencies listed in the `requirements.txt` 
 
 ## **Installation**
 
-### **Step 1: Clone the repository**
+### **Clone the repository**
 
 ```bash
 git clone https://github.com/your-username/anime-recommendation-website.git
