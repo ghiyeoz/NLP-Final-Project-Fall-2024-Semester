@@ -16,16 +16,6 @@ Click the link to access and download the dataset.
 
 Welcome to the Anime Recommendation Website! This project allows users to browse and discover various anime recommendations, powered by a CSV file containing anime data that is converted into JavaScript objects for dynamic display.
 
-## **Table of Contents**
-
-- [Features](#features)
-- [Requirements](#requirements)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Project Structure](#project-structure)
-- [Contributing](#contributing)
-- [License](#license)
-
 ---
 
 ## **Features**
