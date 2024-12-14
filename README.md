@@ -2,17 +2,11 @@
 
 🔗 **[Anime Recommendation System - 2024 Fall NLP Final Project](https://ghiyeoz.github.io/2024_Fall_NLP_Final_Project/)**  
 
-Click the link to interact with the live demo of our anime recommendation system and see how the analysis works in action!
-
 ## Data
-
-The dataset used for analyzing anime can be downloaded from the link below:
 
 🔗 [Dataset on Google Drive](https://drive.google.com/drive/folders/1ef-PQRhQ0Z-eZB1_YET4AFnIAtMIe52W?usp=drive_link)
 
 Click the link to access and download the dataset.
-
-Welcome to the Anime Recommendation Website! This project allows users to browse and discover various anime recommendations, powered by a CSV file containing anime data that is converted into JavaScript objects for dynamic display.
 
 ---
 
@@ -36,7 +30,6 @@ Before you begin, ensure you have the following installed on your local machine:
 You will also need to install the dependencies listed in the `requirements.txt` file.
 
 ---
-
 ## **Installation**
 
 ### **Clone the repository**
