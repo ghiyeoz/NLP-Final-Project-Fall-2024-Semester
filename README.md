@@ -15,6 +15,7 @@ Welcome to the Anime Recommendation Website! This project allows users to browse
 - [Project Structure](#project-structure)
 - [Contributing](#contributing)
 - [License](#license)
+- [Dataset](#dataset)
 
 ---
 
@@ -47,10 +48,50 @@ You will also need to install the dependencies listed in the `requirements.txt` 
 git clone https://github.com/your-username/anime-recommendation-website.git
 cd anime-recommendation-website
 
-## Data
+Step 2: Install Python dependencies
+
+pip install -r requirements.txt
+
+Step 3: Start the server
+
+python -m http.server
+
+Open your browser and go to http://localhost:8000 to view the project.
+
+Usage
+	•	Open the project in your browser.
+	•	Browse the anime list and use the recommendation feature to discover new titles.
+
+Project Structure
+
+anime-recommendation-website/
+│
+├── index.html         # Main HTML file
+├── css/               # Stylesheets
+│   └── style.css      # Main CSS file
+├── js/                # JavaScript files
+│   └── app.js         # Main logic for recommendations
+├── data/              # Anime dataset files
+│   └── anime.csv      # Dataset in CSV format
+├── requirements.txt   # Python dependencies
+└── README.md          # Project documentation
+
+Contributing
+
+We welcome contributions to improve this project. Please follow these steps to contribute:
+	1.	Fork the repository.
+	2.	Create a new branch for your changes.
+	3.	Make your changes and submit a pull request.
+
+License
+
+This project is licensed under the MIT License. See the LICENSE file for more details.
+
+Dataset
 
 The dataset used for analyzing anime can be downloaded from the link below:
 
-🔗 [Dataset on Google Drive](https://drive.google.com/drive/folders/1ef-PQRhQ0Z-eZB1_YET4AFnIAtMIe52W?usp=drive_link)
-
+🔗 Dataset on Google Drive
 Click the link to access and download the dataset.
+
+
