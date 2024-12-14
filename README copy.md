@@ -1,4 +1,4 @@
-# **Anime Recommendation Website**
+# NLP-Final-Project-Fall-2024-Semester
 
 Welcome to the Anime Recommendation Website! This project allows users to browse and discover various anime recommendations, powered by a CSV file containing anime data that is converted into JavaScript objects for dynamic display.
 
