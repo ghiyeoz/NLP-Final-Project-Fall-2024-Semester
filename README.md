@@ -1,6 +1,6 @@
 # NLP-Final-Project-Fall-2024-Semester
 ## DEMO VIDEO
-[Banner-11(https://github.com/ghiyeoz/NLP-Final-Project-Fall-2024-Semester/blob/main/video/Screen%20Recording%202024-12-12%20at%2021.59.41.mov),
+[Banner-1](https://github.com/ghiyeoz/NLP-Final-Project-Fall-2024-Semester/blob/main/video/Screen%20Recording%202024-12-12%20at%2021.59.41.mov),
 
 Explore our project live through the following link:
 
